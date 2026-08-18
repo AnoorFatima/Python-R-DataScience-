@@ -1,0 +1,26 @@
+# n=int(input("Enter number of elements: "))
+# l=list(map(int, input().split()))
+# avg=sum(l)/n
+# print(avg)
+
+# mean: avg
+# median: middle
+# mode: frequently occuring
+# variance: numbers-mean
+
+# import numpy as np
+# import pandas as pd
+# n=int(input())
+# l=list(map(int,input().split()))
+# x=pd.Series(l)
+# mean=np.mean(l)
+# print(mean)
+# median=np.median(l)
+# print(median)
+# mode=x.mode()
+# print(mode.tolist())
+
+import numpy as np
+import pandas as pd
+df=pd.DataFrame({"marks":np.random.randint(0,100,5)})
+print(df)
