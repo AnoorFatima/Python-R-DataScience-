@@ -20,7 +20,16 @@
 # mode=x.mode()
 # print(mode.tolist())
 
+# generating data frame:
 import numpy as np
 import pandas as pd
 df=pd.DataFrame({"marks":np.random.randint(0,100,5)})
 print(df)
+
+import numpy as np
+import pandas as pd
+df=pd.DataFrame({"marks":np.random.randint(0,100,5),
+                 "grade":np.random.choice(['A','B','C','D'])
+                })
+print(df)
+
