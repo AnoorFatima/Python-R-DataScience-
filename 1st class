@@ -33,3 +33,6 @@ df=pd.DataFrame({"marks":np.random.randint(0,100,5),
                 })
 print(df)
 
+# Also ind mean,median and mode
+# 1. user input
+# 2. randomly as well
